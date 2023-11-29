@@ -67,3 +67,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form > button {
+  margin: 10px;
+}
